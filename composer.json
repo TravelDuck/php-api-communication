@@ -1,0 +1,23 @@
+{
+  "name": "get-away/api-communication",
+  "description": "The core components required to communicate with the Get Away API.",
+  "keywords": ["get-away", "get away", "php", "sdk", "get-away api", "api-communication"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Colin Stannard",
+      "email": "colin.stannard@cbsindustries.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-curl": "*",
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "GetAway": ""
+    }
+  }
+}
