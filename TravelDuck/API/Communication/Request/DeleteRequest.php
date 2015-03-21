@@ -1,5 +1,5 @@
 <?php
-namespace GetAway\API\Communication\Request;
+namespace TravelDuck\API\Communication\Request;
 
 
 class DeleteRequest extends Request {

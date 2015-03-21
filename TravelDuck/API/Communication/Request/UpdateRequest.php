@@ -1,8 +1,8 @@
 <?php
-namespace GetAway\API\Communication\Request;
+namespace TravelDuck\API\Communication\Request;
 
 
-class CreateRequest extends Request {
+class UpdateRequest extends Request {
 
   /**
    * Construct a new write request.
@@ -12,7 +12,7 @@ class CreateRequest extends Request {
    * @param null $credentials
    */
   public function __construct($uri, $data, $credentials = null) {
-    parent::__construct($uri, "POST", $data, $credentials);
+    parent::__construct($uri, "PUT", $data, $credentials);
   }
 
 } 

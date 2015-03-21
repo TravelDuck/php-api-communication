@@ -1,5 +1,5 @@
 <?php
-namespace GetAway\API\Communication;
+namespace TravelDuck\API\Communication;
 
 
 /**

@@ -7,7 +7,7 @@
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="Get Away API Communication Test Suite">
+        <testsuite name="TravelDuck API Communication Test Suite">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>

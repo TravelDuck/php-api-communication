@@ -1,8 +1,8 @@
 <?php
-use GetAway\API\Communication\Response\Error\Error;
-use GetAway\API\Communication\Response\Error\InvalidIdentifierError;
-use GetAway\API\Communication\Response\Error\MissingArgumentError;
-use GetAway\API\Communication\Response\Response;
+use TravelDuck\API\Communication\Response\Error\Error;
+use TravelDuck\API\Communication\Response\Error\InvalidIdentifierError;
+use TravelDuck\API\Communication\Response\Error\MissingArgumentError;
+use TravelDuck\API\Communication\Response\Response;
 
 
 class ResponseTest extends \PHPUnit_Framework_TestCase {

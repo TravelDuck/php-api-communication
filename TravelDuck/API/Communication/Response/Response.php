@@ -1,10 +1,11 @@
 <?php
-namespace GetAway\API\Communication\Response;
+namespace TravelDuck\API\Communication\Response;
 
-use GetAway\API\Communication\Response\Error\Error;
-use GetAway\API\Communication\Response\Error\InvalidArgumentError;
-use GetAway\API\Communication\Response\Error\InvalidIdentifierError;
-use GetAway\API\Communication\Response\Error\MissingArgumentError;
+use TravelDuck\API\Communication\Response\Error\Error;
+use TravelDuck\API\Communication\Response\Error\InvalidArgumentError;
+use TravelDuck\API\Communication\Response\Error\InvalidIdentifierError;
+use TravelDuck\API\Communication\Response\Error\MissingArgumentError;
+
 
 class Response {
 

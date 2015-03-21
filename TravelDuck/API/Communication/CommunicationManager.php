@@ -1,8 +1,8 @@
 <?php
-namespace GetAway\API\Communication;
+namespace TravelDuck\API\Communication;
 
-use GetAway\API\Communication\Request\Request;
-use GetAway\API\Communication\Response\Response;
+use TravelDuck\API\Communication\Request\Request;
+use TravelDuck\API\Communication\Response\Response;
 
 
 abstract class CommunicationManager {

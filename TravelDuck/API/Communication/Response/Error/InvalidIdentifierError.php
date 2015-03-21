@@ -1,5 +1,5 @@
 <?php
-namespace GetAway\API\Communication\Response\Error;
+namespace TravelDuck\API\Communication\Response\Error;
 
 
 /**

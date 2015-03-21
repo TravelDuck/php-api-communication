@@ -1,6 +1,6 @@
 <?php
 
-use GetAway\API\Communication\Response\Error\InvalidIdentifierError;
+use TravelDuck\API\Communication\Response\Error\InvalidIdentifierError;
 
 class InvalidIdentifierTest extends \PHPUnit_Framework_TestCase {
 

@@ -1,7 +1,8 @@
 <?php
-namespace GetAway\API\Communication\Request;
+namespace TravelDuck\API\Communication\Request;
 
-use GetAway\API\Communication\CommunicationManager;
+use TravelDuck\API\Communication\CommunicationManager;
+use TravelDuck\API\Communication\Response\Response;
 
 
 class Request {
@@ -49,7 +50,7 @@ class Request {
   /**
    * Execute this request and return the response.
    *
-   * @return \GetAway\API\Communication\Response\Response
+   * @return Response
    */
   public function execute() {
     return CommunicationManager::executeRequest($this);
